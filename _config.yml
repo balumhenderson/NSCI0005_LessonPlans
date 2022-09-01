@@ -3,7 +3,7 @@
 
 title: Diamond Electronics Group
 author: Calum Henderson
-logo: DEG_Logo.png
+logo: Images/DEG_Logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
