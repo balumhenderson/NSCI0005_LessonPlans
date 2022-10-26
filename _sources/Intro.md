@@ -1,4 +1,3 @@
-# Mathematics for Natural Sciences A
 ## Intro
 Lesson plans for the mathematics for natural sciences A course (NSCI0005). Useful information and announcements will be shared here, as well as on the [Moodle Page](https://moodle.ucl.ac.uk/course/view.php?id=26023#section-0).
 
