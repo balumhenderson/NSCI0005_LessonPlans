@@ -56,3 +56,30 @@ $$\overline{z^2} = \overline{(a+bi)(a+bi)} = \overline{a^2+2abi-b^2} = a^2 -b^2 
     
 $$\overline{z}^2 = (a-bi)^2 = (a-bi)(a-bi) = a^2 - 2abi +(bi)^2 = a^2 - b^2 -2abi$$
 ```
+
+4\. Find the roots of $x^5=1$
+
+```{admonition} Solution
+:class: dropdown, seealso
+For problems of the type $x^n=1$, we want to look at the notes on the ``roots of unity''.
+    
+For this problem, we use the cyclic relation $z = re^{i\theta} = re^{i(\theta+2\pi k)}$, for $k \in \mathbb{Z}$.
+    
+We start with:
+    
+$$z = 1 \hspace{0.5cm} \Rightarrow \hspace{0.5cm} re^{i(\theta+2\pi k)} = 1$$
+    
+Setting $r=1$ and $\theta=0$ is sensible in this case. We then take the fifth root:
+    
+$$z_k^{\frac{1}{5}} = 1^{\frac{1}{5}} = e^{i\frac{(2\pi k)}{5}}$$
+    
+And now we can use $k=0,1,2,3,4$ to find our 5 roots:
+
+1. $k=0 \rightarrow e^{0} = \cos(0) + i\sin(0) = 1$,
+2. $k=1 \rightarrow e^{2\pi/5 i} $,
+3. $k=2 \rightarrow e^{4\pi/5 i} $,
+4. $k=3 \rightarrow e^{6\pi/5 i} \equiv e^{-4\pi/5 i}$,
+5. $k=4 \rightarrow e^{8\pi/5 i} \equiv e^{-2\pi/5 i}$.
+    
+    Remember that we want to keep our solutions in principal range $-\pi < \theta \leq \pi$
+```
