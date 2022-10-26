@@ -39,3 +39,6 @@ parse:
     # don't forget to list any other extensions you want enabled,
     # including those that are enabled by default!
     - deflist
+    - amsmath
+    - dollarmath
+  myst_dmath_double_inline: true
