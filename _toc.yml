@@ -4,6 +4,5 @@
 format: jb-book
 root: Intro
 chapters:
-- file: Members/Members
-- file: Research/Topics
-- file: Research/Publications
+- file: Announcements
+- file: WeeklyQs/Week1
