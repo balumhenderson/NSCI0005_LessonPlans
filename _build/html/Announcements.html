@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Announcements &#8212; NSCI0005</title>
+    <title>1. Announcements &#8212; NSCI0005</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,9 +51,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Weekly Questions" href="WeeklyQs/Week1.html" />
+    <link rel="next" title="2. Weekly Questions" href="WeeklyQs/Week1.html" />
     <link rel="prev" title="Intro" href="Intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -101,13 +103,25 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Announcements
+   1. Announcements
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="WeeklyQs/Week1.html">
-   Weekly Questions
+   2. Weekly Questions
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="WeeklyQs/Week3.html">
+     2.3. Derivatives and Integrals - 28/10/2022
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -198,8 +212,30 @@ const thebe_selector_output = ".output, .cell_output"
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#week-1-28-10-2022">
-   Week 1 - 28/10/2022
+   1.1. Week 1 - 28/10/2022
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#week-3-18-11-2022">
+   1.2. Week 3 - 18/11/2022
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#derivative-rules">
+     1.2.1. Derivative rules
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integration-rules">
+     1.2.2. Integration rules
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integration-by-parts">
+     1.2.3. Integration by parts
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -223,8 +259,30 @@ const thebe_selector_output = ".output, .cell_output"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#week-1-28-10-2022">
-   Week 1 - 28/10/2022
+   1.1. Week 1 - 28/10/2022
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#week-3-18-11-2022">
+   1.2. Week 3 - 18/11/2022
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#derivative-rules">
+     1.2.1. Derivative rules
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integration-rules">
+     1.2.2. Integration rules
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integration-by-parts">
+     1.2.3. Integration by parts
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -236,13 +294,50 @@ const thebe_selector_output = ".output, .cell_output"
               <div>
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="announcements">
-<h1>Announcements<a class="headerlink" href="#announcements" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">1. </span>Announcements<a class="headerlink" href="#announcements" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="week-1-28-10-2022">
-<h2>Week 1 - 28/10/2022<a class="headerlink" href="#week-1-28-10-2022" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.1. </span>Week 1 - 28/10/2022<a class="headerlink" href="#week-1-28-10-2022" title="Permalink to this headline">¶</a></h2>
 <p>Welcome to your NSCI0005 tutorials!</p>
 <p>The <a class="reference external" href="https://moodle.ucl.ac.uk/course/view.php?id=26023">Moodle Page</a> for this course holds all of the information you should need, including questions sheets, deadline information, contact details and submission links.</p>
 <p>A Teams group has been set up for these tutorials, and you should all have been added to that. Please feel free to ask me or each other any questions about the course content, and if you need any help with something I will do my best to reply there, or you can <a class="reference external" href="mailto:calum&#46;henderson&#46;19&#37;&#52;&#48;ucl&#46;ac&#46;uk">email me</a>.</p>
 <p>For submitting your weekly marked questions, as well as your assessments and final exam, you need to use the <a class="reference external" href="https://wiki.ucl.ac.uk/display/ELearningStudentSupport/Office+Lens">Office Lens App</a>. When laying out your submissions, please make it legible by making everything large enough and spacing out your answers. It really does help when your solutions are clearer.</p>
+</div>
+<div class="section" id="week-3-18-11-2022">
+<h2><span class="section-number">1.2. </span>Week 3 - 18/11/2022<a class="headerlink" href="#week-3-18-11-2022" title="Permalink to this headline">¶</a></h2>
+<p>This isn’t your first introduction to calculus, but it is always useful to revise the basics!</p>
+<div class="section" id="derivative-rules">
+<h3><span class="section-number">1.2.1. </span>Derivative rules<a class="headerlink" href="#derivative-rules" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/derivativeRules.png"><img alt="_images/derivativeRules.png" src="_images/derivativeRules.png" style="width: 20cm;" /></a>
+</div>
+</div>
+<div class="section" id="integration-rules">
+<h3><span class="section-number">1.2.2. </span>Integration rules<a class="headerlink" href="#integration-rules" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="Images/integrationRules.png"><img alt="Images/integrationRules.png" src="Images/integrationRules.png" style="width: 20cm;" /></a>
+</div>
+</div>
+<div class="section" id="integration-by-parts">
+<h3><span class="section-number">1.2.3. </span>Integration by parts<a class="headerlink" href="#integration-by-parts" title="Permalink to this headline">¶</a></h3>
+<p>One of the nice ways to think about integration by parts is as the ‘opposite’ to the product rule.</p>
+<div class="math notranslate nohighlight">
+\[\frac{\mathrm{d}}{\mathrm{d}x}\left[\mathrm{f}(x) \cdot \mathrm{g}(x)\right] = \mathrm{f}'(x) \cdot \mathrm{g}(x) + \mathrm{f}(x) \cdot \mathrm{g}'(x)\]</div>
+<p>Rearrange this to get</p>
+<div class="math notranslate nohighlight">
+\[\mathrm{f}(x) \cdot \mathrm{g}'(x) = \frac{\mathrm{d}}{\mathrm{d}x}\left[\mathrm{f}(x) \cdot \mathrm{g}(x)\right] - \mathrm{g}(x) \cdot \mathrm{f}'(x)\]</div>
+<p>Now integrate both sides of the equation:</p>
+<div class="math notranslate nohighlight">
+\[\int \big( \mathrm{f}(x) \cdot \mathrm{g}'(x)\big) \mathrm{d}x = \int \big( \frac{\mathrm{d}}{\mathrm{d}x}\left[\mathrm{f}(x) \cdot \mathrm{g}(x)\right] - \mathrm{g}(x) \cdot \mathrm{f}'(x) \big) \mathrm{d}x\]</div>
+<p>Split the right hand side into 2 using the sum rule:</p>
+<div class="math notranslate nohighlight">
+\[\int \big( \mathrm{f}(x) \cdot \mathrm{g}'(x)\big) \mathrm{d}x = \int \big( \frac{\mathrm{d}}{\mathrm{d}x}\left[\mathrm{f}(x) \cdot \mathrm{g}(x)\right] \big) \mathrm{d}x - \int \big( \mathrm{g}(x) \cdot \mathrm{f}'(x) \big) \mathrm{d}x\]</div>
+<p>The first integral on the right undoes the differentiation:</p>
+<div class="math notranslate nohighlight">
+\[\int \big( \mathrm{f}(x) \cdot \mathrm{g}'(x)\big) \mathrm{d}x = \left[\mathrm{f}(x) \cdot \mathrm{g}(x)\right] - \int \big( \mathrm{g}(x) \cdot \mathrm{f}'(x) \big) \mathrm{d}x\]</div>
+<p>And here we are left with integration by parts, in a form we can recognise! Simplifying slightly by letting <span class="math notranslate nohighlight">\(u=\mathrm{f}(x)\)</span> and <span class="math notranslate nohighlight">\(v=\mathrm{g}(x)\)</span> we obtain the very familiar:</p>
+<div class="math notranslate nohighlight">
+\[\int u \mathrm{d}v = u v - \int v \mathrm{d}u\]</div>
+</div>
 </div>
 </div>
 
@@ -281,7 +376,7 @@ const thebe_selector_output = ".output, .cell_output"
     <a class='right-next' id="next-link" href="WeeklyQs/Week1.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Weekly Questions</p>
+        <p class="prev-next-title"><span class="section-number">2. </span>Weekly Questions</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

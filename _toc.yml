@@ -3,6 +3,11 @@
 
 format: jb-book
 root: Intro
+options:
+  numbered: True
+
 chapters:
-- file: Announcements
-- file: WeeklyQs/Week1
+- file: Announcements.md
+- file: WeeklyQs/Week1.md
+  sections:
+  - file: WeeklyQs/Week3.md
