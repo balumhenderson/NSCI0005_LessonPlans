@@ -36,4 +36,11 @@ $\frac{\mathrm{d}y}{\mathrm{d}x} = y\mathrm{ln}(4) = 4^x\mathrm{ln}(4)$
 ```{admonition} Solution
 :class: dropdown, seealso
 
+For this we need to find $\frac{dy}{dx} = \frac{dy}{dt}\frac{dt}{dx}$
+
+$\frac{dy}{dt} = e^t$
+
+$\frac{dx}{dt} = 2t + \cos(t)$
+
+$\therefore \frac{dy}{dx} = \frac{dy}{dt}\frac{dt}{dx} = \frac{e^t}{2t + \cos(t)}$
 ```
