@@ -3,7 +3,7 @@ Problem sheet 2 can be found [here](https://ucl-eu-west-2-moodle-sitedata.s3.eu-
 
 Solutions for some of the problems you were given are shown below.
 
-### 1. a) Find he derivative of $(x^3+2x)\sin(x)$
+### 1. a) Find the derivative of $(x^3+2x)\sin(x)$
 
 ```{admonition} Solution
 :class: dropdown, seealso
