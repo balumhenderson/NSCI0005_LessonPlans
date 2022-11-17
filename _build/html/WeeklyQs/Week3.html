@@ -55,7 +55,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="2.1. Weekly Questions" href="Week1.html" />
+    <link rel="prev" title="2.1. Complex Numbers - 28/10/2022" href="Week1.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -99,6 +99,11 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Content
+ </span>
+</p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../Announcements.html">
@@ -117,7 +122,7 @@ const thebe_selector_output = ".output, .cell_output"
   <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="Week1.html">
-     2.1. Weekly Questions
+     2.1. Complex Numbers - 28/10/2022
     </a>
    </li>
    <li class="toctree-l2 current active">
@@ -215,10 +220,38 @@ const thebe_selector_output = ".output, .cell_output"
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-find-he-derivative-of-x-3-2x-sin-x">
-   2.2.1. 1. a) Find he derivative of
+  <a class="reference internal nav-link" href="#a-find-the-derivative-of-x-3-2x-sin-x">
+   1. a) Find the derivative of
    <span class="math notranslate nohighlight">
     \((x^3+2x)\sin(x)\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-find-the-derivative-of-4-x">
+   1. c) Find the derivative of
+   <span class="math notranslate nohighlight">
+    \(4^x\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#given-that-x-t-2-sin-t-y-e-t-calculate-frac-dy-dx-giving-your-answer-in-terms-of-t">
+   3. Given that
+   <span class="math notranslate nohighlight">
+    \(x = t^2 + \sin(t)\)
+   </span>
+   ,
+   <span class="math notranslate nohighlight">
+    \(y = e^t\)
+   </span>
+   , calculate
+   <span class="math notranslate nohighlight">
+    \(\frac{dy}{dx}\)
+   </span>
+   , giving your answer in terms of
+   <span class="math notranslate nohighlight">
+    \(t\)
    </span>
   </a>
  </li>
@@ -243,10 +276,38 @@ const thebe_selector_output = ".output, .cell_output"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-find-he-derivative-of-x-3-2x-sin-x">
-   2.2.1. 1. a) Find he derivative of
+  <a class="reference internal nav-link" href="#a-find-the-derivative-of-x-3-2x-sin-x">
+   1. a) Find the derivative of
    <span class="math notranslate nohighlight">
     \((x^3+2x)\sin(x)\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-find-the-derivative-of-4-x">
+   1. c) Find the derivative of
+   <span class="math notranslate nohighlight">
+    \(4^x\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#given-that-x-t-2-sin-t-y-e-t-calculate-frac-dy-dx-giving-your-answer-in-terms-of-t">
+   3. Given that
+   <span class="math notranslate nohighlight">
+    \(x = t^2 + \sin(t)\)
+   </span>
+   ,
+   <span class="math notranslate nohighlight">
+    \(y = e^t\)
+   </span>
+   , calculate
+   <span class="math notranslate nohighlight">
+    \(\frac{dy}{dx}\)
+   </span>
+   , giving your answer in terms of
+   <span class="math notranslate nohighlight">
+    \(t\)
    </span>
   </a>
  </li>
@@ -263,12 +324,35 @@ const thebe_selector_output = ".output, .cell_output"
 <h1><span class="section-number">2.2. </span>Derivatives and Integrals - 28/10/2022<a class="headerlink" href="#derivatives-and-integrals-28-10-2022" title="Permalink to this headline">¶</a></h1>
 <p>Problem sheet 2 can be found <a class="reference external" href="https://ucl-eu-west-2-moodle-sitedata.s3.eu-west-2.amazonaws.com/4c/0a/4c0afc15dec935cbdbf249abc552c867c616da0b?response-content-disposition=inline%3B%20filename%3D%22diff_int_Q.pdf%22&amp;response-content-type=application%2Fpdf&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA47YHZF637GKGWUJC%2F20221117%2Feu-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20221117T162557Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=21543&amp;X-Amz-Signature=906020d7ceffe94b6a020df9db593672e568c144da050e286b6c822ce8930db1">here</a>.</p>
 <p>Solutions for some of the problems you were given are shown below.</p>
-<div class="section" id="a-find-he-derivative-of-x-3-2x-sin-x">
-<h2><span class="section-number">2.2.1. </span>1. a) Find he derivative of <span class="math notranslate nohighlight">\((x^3+2x)\sin(x)\)</span><a class="headerlink" href="#a-find-he-derivative-of-x-3-2x-sin-x" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="a-find-the-derivative-of-x-3-2x-sin-x">
+<h2>1. a) Find the derivative of <span class="math notranslate nohighlight">\((x^3+2x)\sin(x)\)</span><a class="headerlink" href="#a-find-the-derivative-of-x-3-2x-sin-x" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown seealso admonition">
 <p class="admonition-title">Solution</p>
 <p>Using the chain rule (<span class="math notranslate nohighlight">\(v\mathrm{d}u + v\mathrm{d}v\)</span>) with <span class="math notranslate nohighlight">\(u = x^3+2x\)</span> and <span class="math notranslate nohighlight">\(v = sin(x)\)</span>, we get:</p>
 <p><span class="math notranslate nohighlight">\((3x^2 + 2)\sin(x) + (x^3+2x)\cos(x)\)</span></p>
+</div>
+</div>
+<div class="section" id="c-find-the-derivative-of-4-x">
+<h2>1. c) Find the derivative of <span class="math notranslate nohighlight">\(4^x\)</span><a class="headerlink" href="#c-find-the-derivative-of-4-x" title="Permalink to this headline">¶</a></h2>
+<div class="dropdown seealso admonition">
+<p class="admonition-title">Solution</p>
+<p>Implicit differentiation is necessary for this problem. First, we want to let <span class="math notranslate nohighlight">\(y=4^x\)</span>, then find <span class="math notranslate nohighlight">\(\mathrm{ln}(y) = x\mathrm{ln}(4)\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x}\)</span></p>
+<p>But also notice that:</p>
+<p><span class="math notranslate nohighlight">\(\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \frac{\mathrm{d}}{\mathrm{d}x} x\mathrm{ln}(4) = ln(4)\)</span></p>
+<p><span class="math notranslate nohighlight">\(\therefore \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x} = ln(4)\)</span></p>
+<p>And hence:</p>
+<p><span class="math notranslate nohighlight">\(\frac{\mathrm{d}y}{\mathrm{d}x} = y\mathrm{ln}(4) = 4^x\mathrm{ln}(4)\)</span></p>
+</div>
+</div>
+<div class="section" id="given-that-x-t-2-sin-t-y-e-t-calculate-frac-dy-dx-giving-your-answer-in-terms-of-t">
+<h2>3. Given that <span class="math notranslate nohighlight">\(x = t^2 + \sin(t)\)</span>, <span class="math notranslate nohighlight">\(y = e^t\)</span>, calculate <span class="math notranslate nohighlight">\(\frac{dy}{dx}\)</span>, giving your answer in terms of <span class="math notranslate nohighlight">\(t\)</span><a class="headerlink" href="#given-that-x-t-2-sin-t-y-e-t-calculate-frac-dy-dx-giving-your-answer-in-terms-of-t" title="Permalink to this headline">¶</a></h2>
+<div class="dropdown seealso admonition">
+<p class="admonition-title">Solution</p>
+<p>For this we need to find <span class="math notranslate nohighlight">\(\frac{dy}{dx} = \frac{dy}{dt}\frac{dt}{dx}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\frac{dy}{dt} = e^t\)</span></p>
+<p><span class="math notranslate nohighlight">\(\frac{dx}{dt} = 2t + \cos(t)\)</span></p>
+<p><span class="math notranslate nohighlight">\(\therefore \frac{dy}{dx} = \frac{dy}{dt}\frac{dt}{dx} = \frac{e^t}{2t + \cos(t)}\)</span></p>
 </div>
 </div>
 </div>
@@ -302,7 +386,7 @@ const thebe_selector_output = ".output, .cell_output"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><span class="section-number">2.1. </span>Weekly Questions</p>
+            <p class="prev-next-title"><span class="section-number">2.1. </span>Complex Numbers - 28/10/2022</p>
         </div>
     </a>
 </div>

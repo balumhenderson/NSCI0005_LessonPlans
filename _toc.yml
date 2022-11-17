@@ -3,12 +3,13 @@
 
 format: jb-book
 root: Intro
-options:
-  numbered: True
 
-chapters:
-- file: Announcements.md
-- file: WeeklyQs/WeeklyQsIntro.md
-  sections:
-  - file: WeeklyQs/Week1.md
-  - file: WeeklyQs/Week3.md
+parts:
+- caption: Content
+  numbered: 2
+  chapters:
+  - file: Announcements.md
+  - file: WeeklyQs/WeeklyQsIntro.md
+    sections:
+    - file: WeeklyQs/Week1.md
+    - file: WeeklyQs/Week3.md

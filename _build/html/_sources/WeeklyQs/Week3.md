@@ -3,11 +3,44 @@ Problem sheet 2 can be found [here](https://ucl-eu-west-2-moodle-sitedata.s3.eu-
 
 Solutions for some of the problems you were given are shown below.
 
-### 1. a) Find he derivative of $(x^3+2x)\sin(x)$
+### 1. a) Find the derivative of $(x^3+2x)\sin(x)$
 
 ```{admonition} Solution
 :class: dropdown, seealso
 Using the chain rule ($v\mathrm{d}u + v\mathrm{d}v$) with $u = x^3+2x$ and $v = sin(x)$, we get:
 
 $(3x^2 + 2)\sin(x) + (x^3+2x)\cos(x)$
+```
+
+### 1. c) Find the derivative of $4^x$
+
+```{admonition} Solution
+:class: dropdown, seealso
+Implicit differentiation is necessary for this problem. First, we want to let $y=4^x$, then find $\mathrm{ln}(y) = x\mathrm{ln}(4)$.
+
+$\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x}$
+
+But also notice that:
+
+$\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \frac{\mathrm{d}}{\mathrm{d}x} x\mathrm{ln}(4) = ln(4)$
+
+$\therefore \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x} = ln(4)$
+
+And hence:
+
+$\frac{\mathrm{d}y}{\mathrm{d}x} = y\mathrm{ln}(4) = 4^x\mathrm{ln}(4)$
+```
+
+### 3. Given that $x = t^2 + \sin(t)$, $y = e^t$, calculate $\frac{dy}{dx}$, giving your answer in terms of $t$
+
+```{admonition} Solution
+:class: dropdown, seealso
+
+For this we need to find $\frac{dy}{dx} = \frac{dy}{dt}\frac{dt}{dx}$
+
+$\frac{dy}{dt} = e^t$
+
+$\frac{dx}{dt} = 2t + \cos(t)$
+
+$\therefore \frac{dy}{dx} = \frac{dy}{dt}\frac{dt}{dx} = \frac{e^t}{2t + \cos(t)}$
 ```

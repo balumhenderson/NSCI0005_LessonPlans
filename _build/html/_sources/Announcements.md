@@ -19,7 +19,7 @@ width: 16cm
 ```
 
 ### Integration rules
-```{figure} Images/integratalRules.png
+```{figure} Images/integralRules.png
 ---
 width: 16cm
 ---
