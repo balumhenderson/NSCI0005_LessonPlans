@@ -297,7 +297,12 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="dropdown seealso admonition">
 <p class="admonition-title">Solution</p>
 <p>Implicit differentiation is necessary for this problem. First, we want to let <span class="math notranslate nohighlight">\(y=4^x\)</span>, then find <span class="math notranslate nohighlight">\(\mathrm{ln}(y) = x\mathrm{ln}(4)\)</span>.</p>
-<p><span class="math notranslate nohighlight">\(\frac{\mathrm{d}\mathrm{ln}(y)}{\mathrm{d}x} = \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x}\)</span></p>
+<p>But also notice that:</p>
+<p><span class="math notranslate nohighlight">\(\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \)</span>\frac{\mathrm{d}}{\mathrm{d}x} x\mathrm{ln}(4) = ln(4)$</p>
+<p><span class="math notranslate nohighlight">\(\therefor \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x} = ln(4)\)</span></p>
+<p>And hence:</p>
+<p><span class="math notranslate nohighlight">\(\frac{\mathrm{d}y}{\mathrm{d}x} = y\mathrm{ln}(4) = 4^x\mathrm{ln}(4)\)</span></p>
 </div>
 </div>
 </div>
