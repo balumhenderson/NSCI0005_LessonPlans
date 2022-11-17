@@ -14,14 +14,14 @@ This isn't your first introduction to calculus, but it is always useful to revis
 ### Derivative rules
 ```{figure} Images/derivativeRules.png
 ---
-width: 20cm
+width: 16cm
 ---
 ```
 
 ### Integration rules
-```{figure} Images/integrationRules.png
+```{figure} Images/integratalRules.png
 ---
-width: 20cm
+width: 16cm
 ---
 ```
 

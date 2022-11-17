@@ -8,6 +8,7 @@ options:
 
 chapters:
 - file: Announcements.md
-- file: WeeklyQs/Week1.md
+- file: WeeklyQs/WeeklyQsIntro.md
   sections:
+  - file: WeeklyQs/Week1.md
   - file: WeeklyQs/Week3.md
