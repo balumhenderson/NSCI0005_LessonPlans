@@ -22,11 +22,18 @@ $\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \frac{1}{y} \frac{\mathrm{d}y}{
 
 But also notice that:
 
-$\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = $\frac{\mathrm{d}}{\mathrm{d}x} x\mathrm{ln}(4) = ln(4)$
+$\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{ln}(y) = \frac{\mathrm{d}}{\mathrm{d}x} x\mathrm{ln}(4) = ln(4)$
 
-$\therefor \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x} = ln(4)$
+$\therefore \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x} = ln(4)$
 
 And hence:
 
 $\frac{\mathrm{d}y}{\mathrm{d}x} = y\mathrm{ln}(4) = 4^x\mathrm{ln}(4)$
+```
+
+### 3. Given that $x = t^2 + \sin(t)$, $y = e^t$, calculate $\frac{dy}{dx}$, giving your answer in terms of $t$
+
+```{admonition} Solution
+:class: dropdown, seealso
+
 ```
