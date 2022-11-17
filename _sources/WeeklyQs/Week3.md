@@ -16,9 +16,7 @@ $(3x^2 + 2)\sin(x) + (x^3+2x)\cos(x)$
 
 ```{admonition} Solution
 :class: dropdown, seealso
-Implicit differentiation is necessary for this problem. First, we want to let $y=4^x$, then find $\mathrm{ln}(y) = x\mathrm{ln}(4).
+Implicit differentiation is necessary for this problem. First, we want to let $y=4^x$, then find $\mathrm{ln}(y) = x\mathrm{ln}(4)$.
 
-\frac{\mathrm{d}\mathrm{ln}(y)}{\mathrm{d}x} = \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x}
-
-$(3x^2 + 2)\sin(x) + (x^3+2x)\cos(x)$
+$\frac{\mathrm{d}\mathrm{ln}(y)}{\mathrm{d}x} = \frac{1}{y} \frac{\mathrm{d}y}{\mathrm{d}x}$
 ```
